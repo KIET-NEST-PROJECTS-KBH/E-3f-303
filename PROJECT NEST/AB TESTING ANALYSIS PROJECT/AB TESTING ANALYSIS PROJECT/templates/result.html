@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Insertion</title>
+    <style>
+        body {
+            background-color: #071D49; /* Dark blue background color (space-like) */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            color: #FFFFFF; /* White text color (stars) */
+        }
+
+        h2, p {
+            font-size: 20px;
+            text-align: center;
+            color: #FFC107; /* Yellow text color (sun) */
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 70vh; /* Adjust the height as needed */
+            border: 5px solid #33CC33; /* Green border color (earth) */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .button-container {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .button.amazon {
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #FF0000, #FF9900); /* Rainbow gradient for the button */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>BY COMPARING THE TWO SITES GIVEN BY YOU, OUR SUGGESTION IS</h1>
+    <h2>Amazon is our first suggestion</h2>
+    <p>Blue graph indicates Flipkart</p>
+    <p>Brown graph indicates Amazon</p>
+    <img src="../static/images/result2.png">
+    <div class="button-container">
+        <a href="https://www.amazon.in/" class="button amazon">Visit Amazon</a>
+    </div>
+</body>
+</html>
